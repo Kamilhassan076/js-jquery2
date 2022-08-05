@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>hide show j query</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $(".para").hide(1000);
+            });
+
+            $("#show").click(function(){
+                $(".para").show(1000);
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <button id="hide"> Hide Paragraph</button>
+    <button id="show">Show Paragraph</button>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam natus soluta sit doloribus necessitatibus modi deleniti aliquam ullam! Earum eum modi rem dolorum asperiores assumenda perferendis harum maxime officiis vel. Voluptatum ipsa pariatur in sed quasi, unde perferendis provident cumque!</p>
+</body>
+</html>
